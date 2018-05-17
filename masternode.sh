@@ -10,7 +10,7 @@ COIN_REPO='https://github.com/HypeDev/Hype.git'
 COIN_TGZ=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Hype'
-COIN_PORT=17121
+COIN_PORT=36050
 RPC_PORT=17122
 
 NODEIP=$(curl -s4 icanhazip.com)

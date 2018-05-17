@@ -3757,8 +3757,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"HYPE Alert\" admin@foo.com</trans
         <translation>Erlaubte Gegenstellen können nicht wegen DoS ausgeschlossen werden und ihre Transaktionen werden immer weitergeleitet, sogar wenn sie schon im Memory-Pool sind. Dies ist z.B. für Gateways nützlich.</translation>
     </message>
     <message>
-        <source>(17121 could be used only on mainnet)</source>
-        <translation>(17121 kann nur im Standardnetz benutzt werden)</translation>
+        <source>(36050 could be used only on mainnet)</source>
+        <translation>(36050 kann nur im Standardnetz benutzt werden)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4176,8 +4176,8 @@ Hype Core wird heruntergefahren.</translation>
         <translation>Masternode-Geheimschlüssel (masternodeprivkey) ist ungültig. Siehe Dokumentation. </translation>
     </message>
     <message>
-        <source>(must be17121 for mainnet)</source>
-        <translation>(muss für Standardnetz17121 sein)</translation>
+        <source>(must be36050 for mainnet)</source>
+        <translation>(muss für Standardnetz36050 sein)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

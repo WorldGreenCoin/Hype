@@ -205,10 +205,10 @@ static const char UNUSED* hype_strings[] = {
     QT_TRANSLATE_NOOP("hype-core", ""
                                    "You must specify a masternodeprivkey in the configuration. Please see "
                                    "documentation for help."),
-    QT_TRANSLATE_NOOP("hype-core", "(17121 could be used only on mainnet)"),
+    QT_TRANSLATE_NOOP("hype-core", "(36050 could be used only on mainnet)"),
     QT_TRANSLATE_NOOP("hype-core", "(default: %s)"),
     QT_TRANSLATE_NOOP("hype-core", "(default: 1)"),
-    QT_TRANSLATE_NOOP("hype-core", "(must be 17121 for mainnet)"),
+    QT_TRANSLATE_NOOP("hype-core", "(must be 36050 for mainnet)"),
     QT_TRANSLATE_NOOP("hype-core", "<category> can be:\n"),
     QT_TRANSLATE_NOOP("hype-core", "Accept command line and JSON-RPC commands"),
     QT_TRANSLATE_NOOP("hype-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),

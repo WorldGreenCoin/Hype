@@ -3758,8 +3758,8 @@ ví dụ: alertnotify=echo %%s | mail -s "HYPE Alert" admin@foo.com
         <translation>Cái điểm ngang hàng trong danh sách trắng không thể bị cấm DoS và các giao dịch của nó luôn được chuyển tiếp, thậm chí cả khi nó đã có trong mempool, hữu ích ví dụ như cho một cửa ngõ</translation>
     </message>
     <message>
-        <source>(17121 could be used only on mainnet)</source>
-        <translation>(17121 chỉ được sử dụng trên mạng chính thức)</translation>
+        <source>(36050 could be used only on mainnet)</source>
+        <translation>(36050 chỉ được sử dụng trên mạng chính thức)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4175,8 +4175,8 @@ ví dụ: alertnotify=echo %%s | mail -s "HYPE Alert" admin@foo.com
         <translation>Masternodeprivkey không hợp lệ. Hãy xem lại tài liệu.</translation>
     </message>
     <message>
-        <source>(must be17121 for mainnet)</source>
-        <translation>(phải là17121 cho mạng chính thức)</translation>
+        <source>(must be36050 for mainnet)</source>
+        <translation>(phải là36050 cho mạng chính thức)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

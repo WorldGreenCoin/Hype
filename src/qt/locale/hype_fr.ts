@@ -3758,8 +3758,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte HYPE" admin@foo.com
         <translation>Pairs en liste blanche ne peuvent être bannis pour DoS et leurs transactions sont toujours relayées, même si elles sont déjà en mémoire, utile par ex. pour une passerelle</translation>
     </message>
     <message>
-        <source>(17121 could be used only on mainnet)</source>
-        <translation>(17121 n'est utilisable que sur mainnet)</translation>
+        <source>(36050 could be used only on mainnet)</source>
+        <translation>(36050 n'est utilisable que sur mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4176,8 +4176,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte HYPE" admin@foo.com
         <translation>masternodeprivkey invalide. Veuillez vous référer à la documentation.</translation>
     </message>
     <message>
-        <source>(must be17121 for mainnet)</source>
-        <translation>(doit être17121 pour mainnet)</translation>
+        <source>(must be36050 for mainnet)</source>
+        <translation>(doit être36050 pour mainnet)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

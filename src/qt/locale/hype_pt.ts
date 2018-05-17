@@ -3654,8 +3654,8 @@ https://www.transifex.com/hype-crypto/hype-wallet-translations/</translation>
         <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o Hype Core não vai funcionar correctamente.</translation>
     </message>
     <message>
-        <source>(17121 could be used only on mainnet)</source>
-        <translation>(17121 apenas pode ser usado para mainnet)</translation>
+        <source>(36050 could be used only on mainnet)</source>
+        <translation>(36050 apenas pode ser usado para mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4064,8 +4064,8 @@ https://www.transifex.com/hype-crypto/hype-wallet-translations/</translation>
         <translation>masternodeprivkey inválida. Por favor reveja a documentação.</translation>
     </message>
     <message>
-        <source>(must be17121 for mainnet)</source>
-        <translation>(deve ser17121 para mainnet)</translation>
+        <source>(must be36050 for mainnet)</source>
+        <translation>(deve ser36050 para mainnet)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
