@@ -1,0 +1,4 @@
+qt/qt_libbitcoinqt_a-qrc_hype.o: qt/qrc_hype.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

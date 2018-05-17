@@ -1,0 +1,26 @@
+# /etc/conf.d/hyped: config file for /etc/init.d/hyped
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/hype/hype.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/hyped"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/hyped.pid"
+
+# Where to write hyped data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/hyped"
+
+# User and group to own hyped process
+#BITCOIND_USER="hype"
+#BITCOIND_GROUP="hype"
+
+# Path to hyped executable
+#BITCOIND_BIN="/usr/bin/hyped"
+
+# Nice value to run hyped under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=HYPE
+Comment=HYPE P2P Cryptocurrency
+Exec=hype-qt %u
+Terminal=false
+Type=Application
+Icon=hype128
+MimeType=x-scheme-handler/hype;
+Categories=Office;Finance;
+Name[en_US]=hype-qt.desktop
