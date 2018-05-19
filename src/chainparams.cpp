@@ -126,7 +126,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1526733546;
+        genesis.nTime = 1526737510;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 0;
 		
@@ -216,7 +216,7 @@ public:
         nMaxMoneyOut = 90000000 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1526733555;
+        genesis.nTime = 1526737533;
         genesis.nNonce = 0;
 
         printf("calc new test genesis block\n");
@@ -299,7 +299,7 @@ public:
         nTargetTimespan = 24 * 60 * 60;
         nTargetSpacing = 1 * 60;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1526733591;
+        genesis.nTime = 1526737547;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 3;
 		
