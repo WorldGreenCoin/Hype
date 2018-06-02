@@ -6,12 +6,12 @@ CONFIGFOLDER='/root/.hype'
 COIN_DAEMON='hyped'
 COIN_CLI='hype-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_REPO='https://github.com/HypeDev/Hype.git'
+COIN_REPO='https://github.com/WorldGreenCoin/Hype.git'
 COIN_TGZ=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Hype'
 COIN_PORT=36050
-RPC_PORT=17122
+RPC_PORT=36051
 
 NODEIP=$(curl -s4 icanhazip.com)
 
