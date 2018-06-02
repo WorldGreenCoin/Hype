@@ -138,7 +138,7 @@ public:
         //for (genesis.nNonce = 0; ; genesis.nNonce++) {
         //hashGenesisBlock = genesis.GetHash();
         //if (hashGenesisBlock <= uint256("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")) break;
-        /}
+        //}
 
         //printf("main hashGenesisBlock %d\n", hashGenesisBlock.ToString().c_str());
         //printf("main hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
@@ -151,8 +151,9 @@ public:
         
 
 
-        vFixedSeeds.clear();
-        vSeeds.clear();
+//        vFixedSeeds.clear();
+//        vSeeds.clear();
+        vSeeds.push_back(CDNSSeedData("0", "80.211.31.201")); //Add seed IP
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 73);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
