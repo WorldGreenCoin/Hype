@@ -55,7 +55,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256("0x000003949482752da72d1ee37943676f8427049b67eb5cbc48b12106ed343f35"));
+    boost::assign::map_list_of(0, uint256("0x00000baf23b32cebeea0878d2da12fecdd5074c71bcefe6e44b9dfd55eb76f65"));
 ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -126,9 +126,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1526712600;
+        genesis.nTime = 1534045500;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 681888;
+        genesis.nNonce = 373768;
 		
         //printf("calc new main genesis block\n");
         //printf("main hashMerkleRoot %s\n", genesis.hashMerkleRoot.ToString().c_str());
@@ -146,14 +146,14 @@ public:
         //printf("main genesis.nTime %d\n", genesis.nTime);
 		
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000003949482752da72d1ee37943676f8427049b67eb5cbc48b12106ed343f35"));
-        assert(genesis.hashMerkleRoot == uint256("0x25a581fea31d182943abf7b2838a37dc2040e41f3e09190af767ddfe456c9aa4"));
+        assert(hashGenesisBlock == uint256("0x00000baf23b32cebeea0878d2da12fecdd5074c71bcefe6e44b9dfd55eb76f65"));
+        assert(genesis.hashMerkleRoot == uint256("0x774d248ad5ff7bc728a54d14a6cd74d72c81a98cced44beab1332d5189ee9719"));
         
 
 
 //        vFixedSeeds.clear();
 //        vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("0", "80.211.31.201")); //Add seed IP
+        vSeeds.push_back(CDNSSeedData("0", "80.211.184.155")); //Add seed IP
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 73);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -179,7 +179,7 @@ public:
         nPoolMaxTransactions = 3;
         strSporkKey = "0478c3e932fbe183b2f665de937866cb1cfc5ed4b0bf733b72286f265ffc03ff52dfd669fbb3f77d630e5393da65c721a9a891d2c4c6aa515dfd25ffe545582357";
         strDarksendPoolDummyAddress = "AcmpqXViWUXNroqVNYRdKjKrFM6PNa1oTM";
-        nStartMasternodePayments = 1525192183; 
+        nStartMasternodePayments = 1534060800; 
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
