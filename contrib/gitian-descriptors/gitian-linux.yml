@@ -29,7 +29,7 @@ packages:
 - "python"
 reference_datetime: "2015-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/hype/hype.git"
+- "url": "https://github.com/WorldGreenCoin/Hype.git"
   "dir": "hype"
 files: []
 script: |
