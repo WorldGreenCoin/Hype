@@ -55,7 +55,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256("0x00000baf23b32cebeea0878d2da12fecdd5074c71bcefe6e44b9dfd55eb76f65"));
+    boost::assign::map_list_of(0, uint256("0x00000cbf8c4772227c36bae85e9d26fcd598fac8af402b9e4900749e51b97616"));
 ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -115,7 +115,7 @@ public:
         nModifierUpdateBlock = 1; // we use the version 2 for dmd
         nMaxMoneyOut = 100000000 * COIN;
 
-        const char* pszTimestamp = "Hype cryptocurrency started at 19.05.2018";
+        const char* pszTimestamp = "Hype cryptocurrency started at 13.08.2018";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -126,9 +126,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1534045500;
+        genesis.nTime = 1534129200;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 373768;
+        genesis.nNonce = 35782;
 		
         //printf("calc new main genesis block\n");
         //printf("main hashMerkleRoot %s\n", genesis.hashMerkleRoot.ToString().c_str());
@@ -146,8 +146,8 @@ public:
         //printf("main genesis.nTime %d\n", genesis.nTime);
 		
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000baf23b32cebeea0878d2da12fecdd5074c71bcefe6e44b9dfd55eb76f65"));
-        assert(genesis.hashMerkleRoot == uint256("0x774d248ad5ff7bc728a54d14a6cd74d72c81a98cced44beab1332d5189ee9719"));
+        assert(hashGenesisBlock == uint256("0x00000cbf8c4772227c36bae85e9d26fcd598fac8af402b9e4900749e51b97616"));
+        assert(genesis.hashMerkleRoot == uint256("0x53924e2265d25c372b33abf76a6a138f88b72949b85ad056d9f2ab48922ae690"));
         
 
 
