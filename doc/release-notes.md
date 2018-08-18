@@ -1,18 +1,18 @@
-Zealium version 2.3.1 is now available from:
+Hype version 2.3.1 is now available from:
 
-  <https://github.com/zealiumcoin/Zealium/releases>
+  <https://github.com/HypeDevCoin/Hype/releases>
 
 This is a new minor version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/zealiumcoin/Zealium/issues>
+  <https://github.com/HypeDevCoin/Hype/issues>
 
 Compatibility
 ==============
 
-Zealium is extensively tested on multiple operating systems using
+Hype is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
@@ -20,7 +20,7 @@ No attempt is made to prevent installing or running the software on Windows XP, 
 can still do so at your own risk but be aware that there are known instabilities and issues.
 Please do not report issues about Windows XP to the issue tracker.
 
-Zealium should also work on most other Unix-like systems but is not
+Hype should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable Changes
@@ -93,7 +93,7 @@ Result: (for other sets):
 }
 
 Examples:
-> zealium-cli masternodestart "alias" "my_mn"
+> Hype-cli masternodestart "alias" "my_mn"
 > curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "masternodestart", "params": ["alias" "my_mn"] }' -H 'content-type: text/plain;' http://127.0.0.1:31091/
 ```
 
@@ -128,7 +128,7 @@ Result:
 }
 
 Examples:
-> zealium-cli mnvote "local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"
+> hype-cli mnvote "local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"
 > curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "mnvote", "params": ["local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"] }' -H 'content-type: text/plain;' http://127.0.0.1:31091/
 ```
 
@@ -154,7 +154,7 @@ Result:
     "BlockEnd": n,                (numeric) Proposal ending block
     "TotalPaymentCount": n,       (numeric) Number of payments
     "RemainingPaymentCount": n,   (numeric) Number of remaining payments
-    "PaymentAddress": "xxxx",     (string) Zealium address of payment
+    "PaymentAddress": "xxxx",     (string) Hype address of payment
     "Ratio": x.xxx,               (numeric) Ratio of yeas vs nays
     "Yeas": n,                    (numeric) Number of yea votes
     "Nays": n,                    (numeric) Number of nay votes
@@ -170,7 +170,7 @@ Result:
 ]
 
 Examples:
-> zealium-cli getbudgetprojection
+> hype-cli getbudgetprojection
 > curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getbudgetprojection", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:31091/
 ```
 
@@ -181,28 +181,4 @@ The results from the `listmasternodes` and `getmasternodecount` commands now inc
 2.3.1 Change log
 =================
 
-Detailed release notes follow. This overview includes changes that affect
-behavior, not code moves, refactors and string updates. For convenience in locating
-the code changes and accompanying discussion, both the pull request and
-git merge commit are mentioned.
 
-### RPC and other APIs
-- #239 `e8b92f4` [RPC] Make 'masternode status' more verbose (Mrs-X)
-- #244 `eac60dd` [RPC] Standardize RPC Commands (Fuzzbawls)
-
-### P2P Protocol and Network Code
-- #248 `0d44ca2` [core] fix payment disagreements, reduce log-verbosity (Mrs-X)
-
-### Miscellaneous
-- #240 `1957445` [Debug Log] Increase verbosity of error-message (Mrs-X)
-- #241 #249 `b60118b` `7405e31` Nullpointer reference fixed (Mrs-X)
-
-Credits
-=======
-
-Thanks to everyone who directly contributed to this release:
-- Fuzzbawls
-- Mrs-X
-- amirabrams
-
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/zealium-project-translations/).
